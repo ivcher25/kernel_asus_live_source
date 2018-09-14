@@ -1,1 +1,1 @@
-deps_initramfs := /root/Android/kernel/scripts/gen_initramfs_list.sh \
+deps_initramfs := /root/kernel_asus_live_source/scripts/gen_initramfs_list.sh \

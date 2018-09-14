@@ -1,6 +1,6 @@
-cmd_scripts/basic/fixdep := gcc -Wp,-MD,scripts/basic/.fixdep.d -Iscripts/basic -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -o scripts/basic/fixdep /root/Android/kernel/scripts/basic/fixdep.c  
+cmd_scripts/basic/fixdep := gcc -Wp,-MD,scripts/basic/.fixdep.d -Iscripts/basic -Wall -Wmissing-prototypes -Wstrict-prototypes -O2 -fomit-frame-pointer -o scripts/basic/fixdep /root/kernel_asus_live_source/scripts/basic/fixdep.c  
 
-source_scripts/basic/fixdep := /root/Android/kernel/scripts/basic/fixdep.c
+source_scripts/basic/fixdep := /root/kernel_asus_live_source/scripts/basic/fixdep.c
 
 deps_scripts/basic/fixdep := \
     $(wildcard include/config/his/driver.h) \

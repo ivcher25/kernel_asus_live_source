@@ -1,0 +1,1 @@
+cmd_arch/arm/crypto/sha1-arm-neon.o := /root/Android/utulity/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o arch/arm/crypto/sha1-arm-neon.o arch/arm/crypto/sha1-armv7-neon.o arch/arm/crypto/sha1_neon_glue.o 

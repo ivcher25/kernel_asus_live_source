@@ -1,0 +1,1 @@
+cmd_sound/soc/codecs/snd-soc-wcd9306.o := /root/Android/utulity/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o sound/soc/codecs/snd-soc-wcd9306.o sound/soc/codecs/wcd9306.o sound/soc/codecs/wcd9306-tables.o sound/soc/codecs/wcd9xxx-common.o sound/soc/codecs/wcdcal-hwdep.o 

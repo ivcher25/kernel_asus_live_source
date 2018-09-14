@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/built-in.o :=  /root/Android/utulity/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/input/misc/built-in.o drivers/input/misc/uinput.o drivers/input/misc/hall_apx9136.o drivers/input/misc/ltr553.o drivers/input/misc/vl6180/built-in.o 

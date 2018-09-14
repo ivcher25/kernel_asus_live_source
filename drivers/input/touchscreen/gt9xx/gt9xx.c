@@ -1812,7 +1812,7 @@ Output:
     u8 opr_buf[16] = {0};
     u8 sensor_id = 0;
 	u8 drv_cfg_version;
-	//u8 flash_cfg_version;
+	u8 flash_cfg_version;
 	int tp_0_value;
 	int tp_1_value;
 
@@ -2054,14 +2054,14 @@ Output:
 	if (ts->chip_type != CHIP_TYPE_GT9F)
 #endif
 	{
-		//if (flash_cfg_version < 90 && flash_cfg_version > drv_cfg_version) {
+		if (flash_cfg_version < 90 && flash_cfg_version > drv_cfg_version) {
 			check_sum = 0;
 	        config[GTP_ADDR_LENGTH] = drv_cfg_version;
 			for (i = GTP_ADDR_LENGTH; i < ts->gtp_cfg_len; i++) {
 				check_sum += config[i];
 			}
 			config[ts->gtp_cfg_len] = (~check_sum) + 1;
-		//}
+		}
 	}
 
 #endif

@@ -1,0 +1,1 @@
+cmd_drivers/gpu/ion/msm/built-in.o :=  /root/Android/utulity/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/gpu/ion/msm/built-in.o drivers/gpu/ion/msm/msm_ion.o drivers/gpu/ion/msm/ion_cp_common.o drivers/gpu/ion/msm/ion_iommu_map.o 

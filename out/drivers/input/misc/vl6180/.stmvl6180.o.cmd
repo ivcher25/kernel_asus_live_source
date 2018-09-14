@@ -1,0 +1,1 @@
+cmd_drivers/input/misc/vl6180/stmvl6180.o := /root/Android/utulity/arm-eabi-4.6/bin/arm-eabi-ld -EL    -r -o drivers/input/misc/vl6180/stmvl6180.o drivers/input/misc/vl6180/stmvl6180_module.o drivers/input/misc/vl6180/src/vl6180x_api.o drivers/input/misc/vl6180/src/vl6180x_i2c.o drivers/input/misc/vl6180/src/vl6180x_port_i2c.o 
