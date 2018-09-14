@@ -1,0 +1,4 @@
+kernel/drivers/input/touchscreen/elan_ktf.ko
+kernel/drivers/input/touchscreen/gt9xx/gt9xx.ko
+kernel/drivers/input/touchscreen/gt9xx/gt9xx_update.ko
+kernel/drivers/input/touchscreen/gt9xx/goodix_tool.ko

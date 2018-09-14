@@ -1,0 +1,2 @@
+kernel/drivers/misc/qseecom.ko
+kernel/drivers/misc/uid_cputime.ko

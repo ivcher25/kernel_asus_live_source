@@ -1,0 +1,4 @@
+kernel/drivers/input/misc/uinput.ko
+kernel/drivers/input/misc/hall_apx9136.ko
+kernel/drivers/input/misc/ltr553.ko
+kernel/drivers/input/misc/vl6180/stmvl6180.ko
